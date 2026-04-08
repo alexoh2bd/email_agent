@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "topic": "nlp lab",
+      "recipient": "Dr. Kim",
+      "snippet": "Emails to Dr. Kim in the NLP lab: use a short subject line, lead with the ask or update, keep paragraphs under 4 sentences. Sign off with \"Best,\" or \"Thanks,\" depending on whether you're requesting something."
+    },
+    {
+      "topic": "capstone",
+      "recipient": "advisor",
+      "snippet": "For capstone check-ins: include current milestone, one blocker if any, and proposed next meeting time. Avoid hedging (\"maybe\", \"might\") when stating deadlines."
+    }
+  ]
+}

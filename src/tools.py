@@ -94,7 +94,7 @@ def build_tool_handlers(
     ]
 
     # ==========================================
-    # WORDSMITH (DRAFT) TOOLS
+    # DRAFT TOOLS
     # ==========================================
 
     def read_current_draft() -> dict[str, Any]:

@@ -22,7 +22,7 @@ SEMANTIC_INDEX_PATH = Path(os.getenv("SEMANTIC_INDEX_PATH", str(MEMORY_DIR / "se
 PERSONA_PATH = Path(os.getenv("PERSONA_PATH", str(MEMORY_DIR / "persona.md")))
 
 MAX_ARCHITECT_TURNS = int(os.getenv("MAX_ARCHITECT_TURNS", "5"))
-MAX_DRAFT_TURNS = int(os.getenv("MAX_DRAFT_TURNS", "8"))
+MAX_DRAFT_TURNS = int(os.getenv("MAX_DRAFT_TURNS", "15"))
 
 # Truncate long grounding reads for the model context
 MAX_GROUNDING_CHARS = int(os.getenv("MAX_GROUNDING_CHARS", "8000"))

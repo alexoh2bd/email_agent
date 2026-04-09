@@ -5,8 +5,8 @@ import os
 import argparse
 import sys
 from pathlib import Path
+from typing import Any
 
-# Allow `python path/to/agent.py` from repo root: resolve imports from this directory
 _SRC = Path(__file__).resolve().parent
 if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
@@ -47,7 +47,11 @@ def run_tool_loop(
     max_turns: int,
     nudge_message: str,
 ) -> None:
-    """Drive the model until it calls `exit_tool_name` or max turns."""
+    """Drive the model until it calls `exit_tool_name` or max turns.
+
+    If max turns is hit without the exit tool, returns quietly so callers can
+    continue with whatever is already in ``state`` (e.g. partial draft).
+    """
     
     # 1. Start the loop by sending the initial prompt to the Chat session
     response = chat.send_message(initial_message)
@@ -103,9 +107,12 @@ def run_tool_loop(
         turns += 1
         response = chat.send_message(nudge_message)
         
-    raise RuntimeError(
-        f"Exceeded max tool turns ({max_turns}) without calling {exit_tool_name}."
+    print(
+        f"\n[agent] Max tool turns ({max_turns}) reached without {exit_tool_name}; "
+        "continuing with current state (partial plan/draft if any).\n",
+        file=sys.stderr,
     )
+    return
 
 def research_node(state: dict, client: genai.Client, model_name: str, arch_config: types.GenerateContentConfig, architect_dispatch: dict) -> None:
     print("\n--- Node 1: Architect (research) ---\n")
@@ -155,12 +162,48 @@ def draft_node(state: dict, client: genai.Client, model_name: str, draft_config:
         dispatch=draft_dispatch,
         exit_tool_name="finalize_draft",
         initial_message=initial,
-        max_turns=config.MAX_ARCHITECT_TURNS,
+        max_turns=config.MAX_DRAFT_TURNS,
         nudge_message=(
             "You must use the available tools. "
             "When drafting is complete, call finalize_draft."
         ),
     )
+
+
+def run_agent_pipeline(user_task: str) -> dict[str, Any]:
+    """Run Architect → Wordsmith pipeline. Raises ValueError if env is misconfigured."""
+    if not os.getenv("GEMINI_API_KEY"):
+        raise ValueError("set GEMINI_API_KEY in .env or environment.")
+
+    state = initial_state(user_task)
+    model_name = config.MODEL_NAME
+
+    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+
+    architect_tools_list, draft_tools_list = build_tool_handlers(state, client)
+
+    architect_dispatch = {f.__name__: f for f in architect_tools_list}
+    draft_dispatch = {f.__name__: f for f in draft_tools_list}
+
+    arch_config = types.GenerateContentConfig(
+        tools=architect_tools_list,
+        system_instruction=RESEARCH_PROMPT,
+        automatic_function_calling=types.AutomaticFunctionCallingConfig(
+            disable=True
+        ),
+    )
+
+    draft_config = types.GenerateContentConfig(
+        tools=draft_tools_list,
+        system_instruction=DRAFT_PROMPT,
+        automatic_function_calling=types.AutomaticFunctionCallingConfig(
+            disable=True
+        ),
+    )
+
+    research_node(state, client, model_name, arch_config, architect_dispatch)
+    draft_node(state, client, model_name, draft_config, draft_dispatch)
+    return state
 
 
 def main() -> None:
@@ -178,41 +221,11 @@ def main() -> None:
         print("Error: provide --task or pipe text on stdin.", file=sys.stderr)
         sys.exit(1)
 
-    if not config.PROJECT_ID:
-        print("Error: set PROJECT_ID in .env or environment.", file=sys.stderr)
+    try:
+        state = run_agent_pipeline(task)
+    except ValueError as e:
+        print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
-
-    state = initial_state(task)
-    model_name = config.MODEL_NAME 
-
-    # Initialize the single GenAI client
-    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-
-    # We just pass the client to the tools; they can instantiate generate_content calls themselves
-    architect_tools_list, draft_tools_list = build_tool_handlers(state, client)
-    
-    # Create the string-to-function mapping dictionaries required for run_tool_loop
-    architect_dispatch = {f.__name__: f for f in architect_tools_list}
-    draft_dispatch = {f.__name__: f for f in draft_tools_list}
-
-    arch_config = types.GenerateContentConfig(
-        tools=architect_tools_list, # SDK needs the list of callables
-        system_instruction=RESEARCH_PROMPT,
-        automatic_function_calling=types.AutomaticFunctionCallingConfig(
-            disable=True
-        ),
-    ) 
-    
-    draft_config= types.GenerateContentConfig(
-        tools=draft_tools_list,
-        system_instruction=DRAFT_PROMPT,
-        automatic_function_calling=types.AutomaticFunctionCallingConfig(
-            disable=True 
-        ),
-    )
-
-    research_node(state, client, model_name, arch_config, architect_dispatch)
-    draft_node(state, client, model_name, draft_config, draft_dispatch)
 
     print("\n--- Final draft (Pass / Reject in your UI) ---\n")
     print(state.get("draft", "").strip() or "(empty draft)")

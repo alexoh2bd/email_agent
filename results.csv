@@ -1,0 +1,400 @@
+Name,Role,Email,email_draft,email_revised,label,sent
+Jiajun Wu,Professor,jiajunwu@cs.stanford.edu,"Subject: Meeting Request: Physical Scene Understanding & Embodied AI - [Your Name]
+
+Dear Professor Wu,
+
+My name is [Your Name] and I am a [Your Affiliation]. I am writing to express my strong interest in your pioneering work on physical scene understanding and to explore potential research synergies.
+
+My core research mission is to build AI that truly understands the physical world, which directly aligns with your group's focus on physical scene understanding, multimodal perception, world modeling, and embodied AI.
+
+I was particularly fascinated by your recent MIT CSAIL talk, 'Understanding the Visual World Through Physical Intrinsics,' and your emphasis on controllable, action-conditioned 4D visual world reconstruction, generation, and interaction. This resonates deeply with my own work, especially my projects on JEPA SSL and LeDEEP depth, which operate at the intersection of perception, world modeling, and robotics – areas central to your lab’s endeavors.
+
+I would be grateful for the opportunity to have a brief 15-20 minute virtual meeting to discuss how our research aligns and explore potential avenues for collaboration. Would you be available sometime next week, perhaps **[e.g., Tuesday, October 24th, 10-10:20 AM PT]** or **[e.g., Thursday, October 26th, 2-2:20 PM PT]**? If those times don't work, I'm happy to provide other options or send a Calendly link. If a meeting isn't possible, a brief reply would also be greatly appreciated.
+
+Thank you for your time and consideration.
+
+Best,
+
+[Your Name]
+[Your Affiliation]","Subject: Meeting Request: Physical Scene Understanding & Embodied AI - Alex Oh
+
+Dear Professor Wu,
+
+I am a Master's student at Duke, and I am writing to express my strong interest in your pioneering work on physical scene understanding and to explore potential research synergies.
+
+My core research mission is to build AI that truly understands the physical world, which directly aligns with your group's focus on physical scene understanding, multimodal perception, world modeling, and embodied AI.
+
+I was particularly fascinated by your recent MIT CSAIL talk, 'Understanding the Visual World Through Physical Intrinsics,' and your emphasis on controllable, action-conditioned 4D visual world reconstruction, generation, and interaction. This resonates deeply with my own work, especially my projects on JEPA SSL and LeDEEP depth, which operate at the intersection of perception, world modeling, and robotics – areas central to your lab’s endeavors.
+
+I would be grateful for the opportunity to have a brief 15-20 minute virtual meeting to discuss how our research aligns and explore potential avenues for collaboration. Would you be available sometime next week? I'm happy to provide other options or send a Google Calendar link. If a meeting isn't possible, a brief reply would also be greatly appreciated.
+
+Thank you for your time and consideration.
+
+Best,
+Alexander Oh",p,False
+Sergey Levine,Professor,svlevine@eecs.berkeley.edu,"Subject: Quick Question about SSL+RL & RAIL Lab Research
+
+Dear Professor Levine,
+
+My name is [Your Name], and I am a researcher interested in the intersection of self-supervised learning and reinforcement learning for robotics. I am writing to express my admiration for your foundational work at the RAIL Lab, UC Berkeley EECS.
+
+Your lab's focus on offline RL, self-supervised robot learning, and large-scale data-driven policies has significantly influenced the field. I am particularly impressed by works such as IQL, CQL, DigiRL, and AutoEval.
+
+My recent work on SSL + RL ablation, utilizing contrastive and SIGReg losses, directly aligns with the research questions your lab addresses, especially in areas like SSL for robotics, RL with learned representations, sim-to-real transfer, and self-supervised pretraining.
+
+I would be grateful for the opportunity to have a brief 15-20 minute virtual meeting to discuss our shared research interests. I am generally available on Tuesday or Thursday afternoons next week. Please let me know if either of those times, or another window convenient for you, might work. If a meeting isn't feasible, I would equally appreciate a brief reply. I understand and respect your time.
+
+Thank you for your consideration.
+
+Sincerely,
+
+[Your Name]
+[Your Affiliation]
+[Your Email]","Subject: Quick Question about SSL+RL & RAIL Lab Research
+
+Dear Professor Levine,
+
+My name is Alex, and I am a researcher interested in the intersection of self-supervised learning and reinforcement learning for robotics. I am writing to express my admiration for your foundational work at the RAIL Lab, UC Berkeley EECS.
+
+Your lab's focus on offline RL, self-supervised robot learning, and large-scale data-driven policies has significantly influenced the field. I am particularly impressed by works such as IQL, CQL, DigiRL, and AutoEval.
+
+My recent work on SSL + RL ablation, utilizing contrastive and SIGReg losses, directly aligns with the research questions your lab addresses, especially in areas like SSL for robotics, RL with learned representations, sim-to-real transfer, and self-supervised pretraining.
+
+I would be grateful for the opportunity to have a brief 15-20 minute virtual meeting to discuss our shared research interests. I am generally available on Tuesday or Thursday afternoons next week. Please let me know if either of those times, or another window convenient for you, might work. If a meeting isn't feasible, I would equally appreciate a brief reply. I understand and respect your time.
+
+Thank you for your consideration.
+
+Sincerely,
+
+[Your Name]
+[Your Affiliation]
+[Your Email]",p,False
+Chelsea Finn,Professor,cbfinn@cs.stanford.edu,"Subject: Quick Question: Robotics & Self-Supervised Learning
+
+Dear Professor Finn,
+
+My name is [Sender's Name], and I am reaching out as I deeply admire your pioneering work at the IRIS lab, particularly its focus on intelligence through robotic interaction at scale.
+
+My own research aligns closely with your lab's pursuits in self-supervised learning for robotics, generalization, meta-learning, imitation learning, and Vision-Language-Actions (VLAs). I've been particularly impressed by your contributions such as the ""self-supervised and domain-agnostic masked autoencoders"" and ""self-guided masked autoencoders,"" which resonate strongly with my interests in adapting these approaches for real-time human-robot collaboration in unstructured environments.
+
+I'm specifically exploring potential intersections for future research and would be grateful for the opportunity to briefly discuss this. Would you be open to a 15-20 minute virtual meeting, perhaps on Tuesday, [Insert Date], between 10 AM-12 PM PT, or Thursday, [Insert Date], between 2 PM-4 PM PT? I'm also happy to suggest other times or send a calendar link if those don't work. Alternatively, a brief email exchange would also be greatly appreciated.
+
+Thank you for your time and consideration.
+
+Best,
+
+[Sender's Name]
+[Sender's Affiliation - Optional]
+[Sender's Email]","Subject: Quick Question: Robotics & Self-Supervised Learning
+
+Dear Professor Finn,
+
+My name is [Sender's Name], and I am reaching out as I deeply admire your pioneering work at the IRIS lab, particularly its focus on intelligence through robotic interaction at scale.
+
+My own research aligns closely with your lab's pursuits in self-supervised learning for robotics, generalization, meta-learning, imitation learning, and Vision-Language-Actions (VLAs). I've been particularly impressed by your contributions such as the ""self-supervised and domain-agnostic masked autoencoders"" and ""self-guided masked autoencoders,"" which resonate strongly with my interests in adapting these approaches for real-time human-robot collaboration in unstructured environments.
+
+I'm specifically exploring potential intersections for future research and would be grateful for the opportunity to briefly discuss this.  I'm also happy to suggest other times or send a calendar link if those don't work. Alternatively, a brief email exchange would also be greatly appreciated.
+
+Thank you for your time and consideration.
+
+Best,
+
+Alex
+from duke",p,False
+Angjoo Kanazawa,Professor,,,,,False
+Yanjie Ze,PhD Student,yanjieze@stanford.edu,,,,False
+Stephen Tian,PhD Student,tians@stanford.edu,"Subject: Quick Question: Our Upcoming Project Kickoff?
+
+Dear Dr. Reed,
+
+We are thrilled to begin our new project together and are looking forward to our upcoming kickoff meeting.
+
+This email is to confirm the details of our initial meeting where we'll officially launch the project. We've scheduled it for [Date] at [Time] [Time Zone] via [Platform, e.g., Google Meet/Zoom]. A calendar invitation with the meeting link will follow within the next hour.
+
+During the kickoff, we plan to discuss:
+*   Project goals and objectives
+*   Key deliverables and timelines
+*   Team introductions and roles
+*   Communication protocols
+*   Initial steps and next actions
+
+Please let us know if you have any specific materials or topics you'd like to add to the agenda before our meeting. We want to ensure we cover everything important to you.
+
+We are very excited about this collaboration and are eager to get started.
+
+Best,
+
+[Your Name/Team Name]","Subject: Quick Question: Our Upcoming Project Kickoff?
+
+Dear Dr. Reed,
+
+We are thrilled to begin our new project together and are looking forward to our upcoming kickoff meeting.
+
+This email is to confirm the details of our initial meeting where we'll officially launch the project. We've scheduled it for [Date] at [Time] [Time Zone] via [Platform, e.g., Google Meet/Zoom]. A calendar invitation with the meeting link will follow within the next hour.
+
+During the kickoff, we plan to discuss:
+*   Project goals and objectives
+*   Key deliverables and timelines
+*   Team introductions and roles
+*   Communication protocols
+*   Initial steps and next actions
+
+Please let us know if you have any specific materials or topics you'd like to add to the agenda before our meeting. We want to ensure we cover everything important to you.
+
+We are very excited about this collaboration and are eager to get started.
+
+Best,
+
+[Your Name/Team Name]",,False
+Yunzhi Zhang,PhD Student,yzzhang@cs.stanford.edu,"Subject: Quick Question about 3D Scene Understanding
+
+Dear Yunzhi Zhang,
+
+My name is [Your Name] and I am a [Your Affiliation/Role] with a strong interest in visual representation learning and 3D scene understanding.
+
+I've been following your impressive work, particularly ""The Scene Language"" and ""3D Congealing,"" and find a significant alignment with my own research in generative world models and visual representations. Your approach to using programs, words, and embeddings for scene representations, as well as your work on multi-view consistency, deeply resonates with my research interests.
+
+I would be grateful for the opportunity to have a brief virtual meeting (15-20 minutes) to discuss our shared research and potential synergies. I am generally available for a quick chat early next week (e.g., Monday or Tuesday afternoon PST) or could send along a few specific time slots if that's easier. Please let me know what might work best for you.
+
+If your schedule doesn't permit a meeting, I would still appreciate any thoughts or a brief reply.
+
+Thank you for your time and consideration.
+
+Best,
+
+[Your Name]
+[Your Contact Information/Affiliation]","Subject: Quick Question about 3D Scene Understanding
+
+Dear Yunzhi Zhang,
+
+My name is [Your Name] and I am a [Your Affiliation/Role] with a strong interest in visual representation learning and 3D scene understanding.
+
+I've been following your impressive work, particularly ""The Scene Language"" and ""3D Congealing,"" and find a significant alignment with my own research in generative world models and visual representations. Your approach to using programs, words, and embeddings for scene representations, as well as your work on multi-view consistency, deeply resonates with my research interests.
+
+I would be grateful for the opportunity to have a brief virtual meeting (15-20 minutes) to discuss our shared research and potential synergies. I am generally available for a quick chat early next week (e.g., Monday or Tuesday afternoon PST) or could send along a few specific time slots if that's easier. Please let me know what might work best for you.
+
+If your schedule doesn't permit a meeting, I would still appreciate any thoughts or a brief reply.
+
+Thank you for your time and consideration.
+
+Best,
+
+[Your Name]
+[Your Contact Information/Affiliation]",p,False
+Chen Geng,PhD Student,gengchen@cs.stanford.edu,"Subject: Quick question about 4D Vision Research
+
+Dear Chen Geng,
+
+My name is [Your Name], and I am reaching out to express my keen interest in your research on 4D vision and dynamic scene understanding. I was particularly impressed by your CVPR 2025 papers, ""Birth and Death of a Rose"" (https://chen-geng.com/rose4d/) and your related work on 4D Vision and Computer Graphics (https://chen-geng.com).
+
+Your focus on modeling the full 4D lifecycle of physical phenomena and learning structured physical dynamics from video strongly aligns with my own work and interests in JEPA / world models, especially concerning the understanding of temporal world structure.
+
+I would be grateful for the opportunity to have a brief virtual meeting, perhaps 15-20 minutes, to discuss our shared research interests. Would you be available sometime next week, say, Tuesday or Wednesday afternoon, or perhaps early on Thursday? Alternatively, if a meeting isn't feasible, a short reply would also be greatly appreciated.
+
+Thank you for your consideration.
+
+Best,
+
+[Your Name]
+[Your Affiliation]
+[Your Email]","Subject: Quick question about 4D Vision Research
+
+Dear Chen Geng,
+
+My name is [Your Name], and I am reaching out to express my keen interest in your research on 4D vision and dynamic scene understanding. I was particularly impressed by your CVPR 2025 papers, ""Birth and Death of a Rose"" (https://chen-geng.com/rose4d/) and your related work on 4D Vision and Computer Graphics (https://chen-geng.com).
+
+Your focus on modeling the full 4D lifecycle of physical phenomena and learning structured physical dynamics from video strongly aligns with my own work and interests in JEPA / world models, especially concerning the understanding of temporal world structure.
+
+I would be grateful for the opportunity to have a brief virtual meeting, perhaps 15-20 minutes, to discuss our shared research interests. Would you be available sometime next week, say, Tuesday or Wednesday afternoon, or perhaps early on Thursday? Alternatively, if a meeting isn't feasible, a short reply would also be greatly appreciated.
+
+Thank you for your consideration.
+
+Best,
+
+[Your Name]
+[Your Affiliation]
+[Your Email]",,False
+Joy Hsu,PhD Student,joycj@stanford.edu,"Subject: Quick Question about JEPA and Neuro-symbolic Reasoning
+
+Dear Joy,
+
+My name is [Your Name], and I'm a researcher interested in the intersection of neuro-symbolic reasoning and structured representation learning. I'm reaching out because I've been following your work, particularly the LEFT project, with great interest.
+
+Your approach to visual reasoning via physical concept grounding and grounding language to structured perception deeply resonates with my own research. The way you tackle learning structured world representations and compositional reasoning directly aligns with questions I'm exploring regarding 'what JEPA should be learning' to build more effective, generalizable AI systems.
+
+Would you be open to a brief 15-20 minute virtual chat sometime next week to discuss our shared interests further? I'm generally available on Tuesday or Thursday afternoons, or happy to send a Calendly link if that's easier.
+
+Thank you for your time and consideration.
+
+Best,
+
+[Your Name]
+[Your Affiliation (Optional)]
+
+Relevant work:
+[LEFT (NeurIPS 2023)](https://web.stanford.edu/~joycj/projects/left_neurips_2023.html)
+[BEHAVIOR (CoRL 2025)](https://behavior.stanford.edu)","Subject: Quick Question about JEPA and Neuro-symbolic Reasoning
+
+Dear Joy,
+
+My name is [Your Name], and I'm a researcher interested in the intersection of neuro-symbolic reasoning and structured representation learning. I'm reaching out because I've been following your work, particularly the LEFT project, with great interest.
+
+Your approach to visual reasoning via physical concept grounding and grounding language to structured perception deeply resonates with my own research. The way you tackle learning structured world representations and compositional reasoning directly aligns with questions I'm exploring regarding 'what JEPA should be learning' to build more effective, generalizable AI systems.
+
+Would you be open to a brief 15-20 minute virtual chat sometime next week to discuss our shared interests further? I'm generally available on Tuesday or Thursday afternoons, or happy to send a Calendly link if that's easier.
+
+Thank you for your time and consideration.
+
+Best,
+
+[Your Name]
+[Your Affiliation (Optional)]
+
+Relevant work:
+[LEFT (NeurIPS 2023)](https://web.stanford.edu/~joycj/projects/left_neurips_2023.html)
+[BEHAVIOR (CoRL 2025)](https://behavior.stanford.edu)",,False
+Homer Walke,PhD Student,hwalke@berkeley.edu,,,,False
+Seohong Park,PhD Student,seohong@berkeley.edu,"Subject: Quick Question about Offline RL Scalability & FQL
+
+Dear Seohong Park,
+
+My name is A Researcher, and I'm a PhD student at [Your University/Company].
+
+I'm writing because I'm genuinely impressed by your work on OGBench and Flow Q-Learning, especially your core question around the true scalability of RL.
+
+My own research aligns closely, as I'm exploring contrastive vs. SIGReg loss in offline RL scalability, aiming for more expressive objectives. I see a clear overlap in our interests to advance scalable RL systems, and I believe we could have a valuable exchange of ideas.
+
+Would you be open to a brief 15-20 minute virtual chat to discuss our respective approaches? I'm generally available:
+*   [e.g., Tuesday, November 7th, 10 AM - 12 PM PT]
+*   [e.g., Thursday, November 9th, 2 PM - 4 PM PT]
+
+If a meeting isn't feasible, I'd also be very grateful for a quick email reply sharing your thoughts on the trade-offs in ensuring objective expressiveness within offline RL constraints.
+
+Thanks,
+
+A Researcher","Subject: Quick Question about Offline RL Scalability & FQL
+
+Dear Seohong Park,
+
+My name is A Researcher, and I'm a PhD student at [Your University/Company].
+
+I'm writing because I'm genuinely impressed by your work on OGBench and Flow Q-Learning, especially your core question around the true scalability of RL.
+
+My own research aligns closely, as I'm exploring contrastive vs. SIGReg loss in offline RL scalability, aiming for more expressive objectives. I see a clear overlap in our interests to advance scalable RL systems, and I believe we could have a valuable exchange of ideas.
+
+Would you be open to a brief 15-20 minute virtual chat to discuss our respective approaches? 
+
+If a meeting isn't feasible, I'd also be very grateful for a quick email reply sharing your thoughts on the trade-offs in ensuring objective expressiveness within offline RL constraints.
+
+Thanks,
+
+ALex",lots,False
+Kevin Frans,PhD Student,hi@kvfrans.com,"Subject: Quick Question: Deep Learning Theory & Self-Improving Systems
+
+Hi Kevin,
+
+I'm reaching out because I've been following your work on deep learning theory and self-improving systems with great interest. Specifically, your recent papers on 'Diffusion Guidance as Policy Improvement' and 'What Really Matters in Matrix-Whitening Optimizers' caught my attention, especially given your background with the OpenAI RL team.
+
+My own research focusing on [**_Your specific research area, e.g., efficient sampling strategies for generative models or novel reward shaping techniques in scalable RL_**] aligns closely with your interests in scalable RL and generative modeling, and I find your approach to understanding deep learning particularly insightful.
+
+I would be grateful for the opportunity to briefly connect for 15-20 minutes to discuss our shared research and potential synergies. Would you be available for a quick virtual chat sometime next week, perhaps on **[Day] afternoon ([e.g., 2-4 PM PST])** or **[Day] morning ([e.g., 9-11 AM PST])**? Alternatively, feel free to pick a time directly via [**_Your Calendly/scheduling link here_**]. If a brief email reply is more convenient, that's also perfectly fine.
+
+Thank you for your time and consideration.
+
+Best regards,
+
+[My Name]","Subject: Quick Question: Deep Learning Theory & Self-Improving Systems
+
+Hi Kevin,
+
+I'm reaching out because I've been following your work on deep learning theory and self-improving systems with great interest. Specifically, your recent papers on 'Diffusion Guidance as Policy Improvement' and 'What Really Matters in Matrix-Whitening Optimizers' caught my attention, especially given your background with the OpenAI RL team.
+
+My own research focusing on [**_Your specific research area, e.g., efficient sampling strategies for generative models or novel reward shaping techniques in scalable RL_**] aligns closely with your interests in scalable RL and generative modeling, and I find your approach to understanding deep learning particularly insightful.
+
+I would be grateful for the opportunity to briefly connect for 15-20 minutes to discuss our shared research and potential synergies. Would you be available for a quick virtual chat sometime next week, perhaps on **[Day] afternoon ([e.g., 2-4 PM PST])** or **[Day] morning ([e.g., 9-11 AM PST])**? Alternatively, feel free to pick a time directly via [**_Your Calendly/scheduling link here_**]. If a brief email reply is more convenient, that's also perfectly fine.
+
+Thank you for your time and consideration.
+
+Best regards,
+
+[My Name]",,False
+Qiyang (Colin) Li,PhD Student,colinqiyangli@berkeley.edu,,,,False
+Vivek Myers,PhD Student,vmyers@berkeley.edu,,,,False
+Karl Pertsch,Postdoc,pertsch@cs.stanford.edu,,,,False
+Lucy Shi,PhD Student,lucyshi@stanford.edu,,,,False
+Anikait Singh,PhD Student,asingh98@stanford.edu,,,,False
+Jonathan Yang,PhD Student,,,,,False
+Moo Jin Kim,PhD Student,mj-kim@stanford.edu,"Subject: Quick Question: OpenVLA & SSL Pretraining
+
+Dear Moo Jin Kim,
+
+My name is [Your Name], a [Your Affiliation/Role] deeply interested in visual language models (VLAs) for robot manipulation. I'm writing because I'm very impressed by your OpenVLA work published at CoRL 2024, which achieved state-of-the-art performance.
+
+My research explores [your specific research area related to SSL pretraining feeding into VLA-style policies, e.g., 'data-efficient SSL for novel robotic tasks'], and I'm particularly interested in how OpenVLA's SSL pretraining approaches scale to diverse manipulation policies. I believe there could be interesting synergies to discuss regarding [mention a specific common ground or question, e.g., 'transferring representations to low-resource scenarios' or 'the impact of specific pretraining data choices'].
+
+Would you be open to a brief 15-20 minute virtual meeting to share insights? I'm available [suggest 2-3 specific time windows, e.g., 'next Tuesday morning or Thursday afternoon, Pacific Time'], or please feel free to share your Calendly link. Alternatively, if a meeting isn't feasible, a short email reply would be greatly appreciated.
+
+Thanks for your time and consideration.
+
+Best,
+
+[Your Name]
+[Your Title]
+[Your Affiliation]
+[Your Contact Information]","Subject: Quick Question: OpenVLA & SSL Pretraining
+
+Dear Moo Jin Kim,
+
+My name is [Your Name], a [Your Affiliation/Role] deeply interested in visual language models (VLAs) for robot manipulation. I'm writing because I'm very impressed by your OpenVLA work published at CoRL 2024, which achieved state-of-the-art performance.
+
+My research explores [your specific research area related to SSL pretraining feeding into VLA-style policies, e.g., 'data-efficient SSL for novel robotic tasks'], and I'm particularly interested in how OpenVLA's SSL pretraining approaches scale to diverse manipulation policies. I believe there could be interesting synergies to discuss regarding [mention a specific common ground or question, e.g., 'transferring representations to low-resource scenarios' or 'the impact of specific pretraining data choices'].
+
+Would you be open to a brief 15-20 minute virtual meeting to share insights? I'm available [suggest 2-3 specific time windows, e.g., 'next Tuesday morning or Thursday afternoon, Pacific Time'], or please feel free to share your Calendly link. Alternatively, if a meeting isn't feasible, a short email reply would be greatly appreciated.
+
+Thanks for your time and consideration.
+
+Best,
+
+[Your Name]
+[Your Title]
+[Your Affiliation]
+[Your Contact Information]",,False
+Hongsuk Choi,PhD Student,hongsukchoi@berkeley.edu,"Subject: Quick Question about VideoMimic & [Your Team's Area]?
+
+Dear Hongsuk Choi,
+
+My name is [Your Name], and I am writing to you as a fellow researcher deeply impressed by your work, particularly VideoMimic (CoRL 2025 Best Student Paper) and your CVPR 2025 Highlight on reconstructing people, places, and cameras. Your contributions to humanoid control from video and 4D human-scene reconstruction are truly impactful.
+
+Our team's research extensively involves a depth + SSL + RL stack, which has significant overlap with your innovative approaches at the intersection of visual perception and humanoid robot control. I believe there's strong synergy between our work.
+
+Would you be open to a brief 15-20 minute virtual chat next week to discuss our aligned interests and potential collaborations? I'm generally available on **[Day of week, e.g., Monday] afternoon** or **[Day of week, e.g., Wednesday] morning, your time**. Please let me know if either of those might work, or if another time would be more convenient.
+
+Alternatively, if a call isn't feasible, a short email reply with your thoughts would also be greatly appreciated.
+
+Thanks for your time and consideration.
+
+Best,
+
+[Your Name]
+[Your Affiliation]","Subject: Quick Question about VideoMimic & [Your Team's Area]?
+
+Dear Hongsuk Choi,
+
+My name is [Your Name], and I am writing to you as a fellow researcher deeply impressed by your work, particularly VideoMimic (CoRL 2025 Best Student Paper) and your CVPR 2025 Highlight on reconstructing people, places, and cameras. Your contributions to humanoid control from video and 4D human-scene reconstruction are truly impactful.
+
+Our team's research extensively involves a depth + SSL + RL stack, which has significant overlap with your innovative approaches at the intersection of visual perception and humanoid robot control. I believe there's strong synergy between our work.
+
+Would you be open to a brief 15-20 minute virtual chat next week to discuss our aligned interests and potential collaborations? I'm generally available on **[Day of week, e.g., Monday] afternoon** or **[Day of week, e.g., Wednesday] morning, your time**. Please let me know if either of those might work, or if another time would be more convenient.
+
+Alternatively, if a call isn't feasible, a short email reply with your thoughts would also be greatly appreciated.
+
+Thanks for your time and consideration.
+
+Best,
+
+[Your Name]
+[Your Affiliation]",,False
+Chung Min Kim,PhD Student,,,,,False
+Brent Yi,PhD Student,,,,,False
+David McAllister,PhD Student,,,,,False
+Justin Kerr,PhD Student,,,,,False
